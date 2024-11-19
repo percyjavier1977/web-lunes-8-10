@@ -20,3 +20,48 @@ nav ul{
     margin: 0;
     padding: 0;
 }
+
+nav ul li{
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 5px;
+}
+nav a:hover{
+    color: #ffcc00;
+    background-color: black;
+}
+
+.hero{
+    background-image: url(hero.png); /*Colocar la imagen*/
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    color: white;
+    padding-top: 150px;
+    text-align: center;
+
+}
+
+.hero-content{
+    background: rgba(0,0,0,0.5);
+    display: inline-block;
+    padding: 40px 40px;
+    border-radius: 10px;
+}
+.hero h1{
+    font-size: 36px;
+    margin-bottom: 15px;
+    
+}
+.hero p{
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+

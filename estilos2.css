@@ -65,3 +65,41 @@ nav a:hover{
     margin-bottom: 50px;
 }
 
+section{
+    padding: 25px;
+    margin: 40px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1)
+}
+
+section img{
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #7c7c7c;
+    display: block;
+    margin: 0 auto;
+   
+}
+
+.center-content{
+    text-align: center;
+}
+
+section a{
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+section a:hover{
+    background-color: #155f25;
+    cursor: pointer;
+}

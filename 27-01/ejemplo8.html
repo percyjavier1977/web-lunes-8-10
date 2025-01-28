@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Suma de dos números</h1>
+    <p>Ingresa dos numeros y haga clic en boton para sumar</p>
+    
+    <label for="numero1">Numero 1:</label>
+    <input type="text" name="" id="numero1" placeholder="Primer número">
+
+    <label for="numero2">Numero 2:</label>
+    <input type="text" name="" id="numero2" placeholder="Segundo número">
+
+    <button onclick="sumar()">Sumar</button>
+    <p>El resultado es: <span id="resultado">0</span></p>
+
+    <script>
+        function sumar(){
+            let num1 = document.getElementById("numero1").value;
+            let num2 = document.getElementById("numero2").value;
+
+            //Convertir a flotante(número con decimales)
+            num1 = parseFloat(num1);
+            num2 = parseFloat(num2);
+
+            let resultado = num1 + num2;
+            document.getElementById("resultado").innerHTML = resultado;
+
+
+        }
+    </script>
+
+
+</body>
+</html>

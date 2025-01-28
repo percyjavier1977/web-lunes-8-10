@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript y eventos HTML</h1>
+    <p id="color">Has clic para cambiar el color de fondo y de texto</p>
+
+    <!--Boton que aplica el JS-->
+
+    <button onclick="cambiarFondoyTexto()">Apliacar el cambio</button>
+
+    <script>
+
+        function cambiarFondoyTexto(){
+            document.body.style.backgroundColor ="lightblue";
+            document.getElementById('color').innerHTML="<b><i>Se cambio el color de fondo y el texto</i></b>";
+
+        }
+
+    </script>
+
+</body>
+</html>

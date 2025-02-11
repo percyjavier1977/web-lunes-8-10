@@ -6,3 +6,140 @@ body{
     padding: 0;
 }
 
+
+header{
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    margin: 0 1rem;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: yellow;
+}
+
+main{
+    padding: 2rem;
+
+}
+.productos-container{
+ 
+    /*display: flex;
+  justify-content: center;
+  flex-wrap: wrap;*/
+  gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+
+}
+
+.producto{
+
+    /*
+    flex: 1
+    box-sizing: border-box
+    */
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.producto h3{
+    margin: 0.5rem 0;
+}
+
+.producto p{
+    color: #777;
+}
+
+.producto button{
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#carrito{
+    margin-top: 2rem;
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+#lista-carrito{
+    list-style: none;
+    padding: 0;
+}
+
+#lista-carrito li{
+    display: flex;
+    justify-content:space-between;
+    padding: 05rem 0;
+}
+
+#formulario-pago{
+    margin-top: 2rem;
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+
+#formulario-pago input[type="text"],
+#formulario-pago input[type="number"]{
+    width: 98%;
+    padding: 0.5rem 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+
+}
+
+#formulario-pago button{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.whatasapp-float{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    z-index: 100;
+}

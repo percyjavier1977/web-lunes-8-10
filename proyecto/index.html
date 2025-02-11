@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Tienda en linea</h1>
+        <nav>
+            <ul>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#carrito">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="productos">
+            <h2>Productos Disponibles</h2>
+            <div class="productos-container" id="productos-container">
+                <div class="producto">
+                    <h3>Producto 1</h3>
+                    <p>Precio: S/150</p>
+                    <button>Agregar al carrito</button>
+                </div>
+                <div class="producto">
+                    <h3>Producto </h3>
+                    <p>Precio: S/100</p>
+                    <button>Agregar al carrito</button>
+                </div>
+                <div class="producto">
+                    <h3>Producto 3</h3>
+                    <p>Precio: S/80</p>
+                    <button>Agregar al carrito</button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Carrito de compras</h2>
+            <ul id="lista-carrito"></ul>
+            <p>Total: <span id="Total">S/0.00</span></p>
+        </section>
+        <section>
+            <h2>Formulario de pago</h2>
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" name="nombre" id="nombre" required>
+
+            <label for="nombre">Número de tarjeta:</label>
+            <input type="number" name="tarjeta" id="tarjeta" required>
+
+            <label for="nombre">Dirección de envio</label>
+            <input type="text" name="direccion" id="direccion" required>
+
+            <button type="submit">Realizar Pago</button>
+        </section>
+    </main>
+
+    <a href="https://wa.me/51924934573" class="whatasapp-float" target="_blank">
+        <i class="fa fa-whatsapp"></i>
+    </a>
+</body>
+</html>
